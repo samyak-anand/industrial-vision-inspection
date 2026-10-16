@@ -1251,6 +1251,3 @@ Use the latest official documentation and verify version compatibility before im
 Keep this README as the project's single high-level entry point. When implementation changes, update the status, commands, tested software versions, evaluation results, and limitations. Do not replace proposed architecture with claims of completed functionality unless the corresponding code has been executed and verified.
 '''
 
-out = Path("/mnt/data/README.md")
-pypandoc.convert_text(readme, "md", format="md", outputfile=str(out), extra_args=["--standalone"])
-print(f"Created {out} ({out.stat().st_size:,} bytes)")
