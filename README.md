@@ -160,6 +160,7 @@ Numerical acceptance thresholds should be agreed with the project owner and vali
 ---
 
 ## 5. Proposed system at a glance
+<img width="1425" height="1401" alt="image" src="https://github.com/user-attachments/assets/af130728-4ad5-4189-97e1-839e9163cb8f" />
 
 ```text
 Product / Test Image
