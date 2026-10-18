@@ -1,0 +1,19 @@
+datasets/
+data/raw/
+data/interim/
+
+#Generated extraction outputs
+data/image_metadata.csv
+data/object_annotations.csv
+data/image_extraction_errors.csv
+data/annotations_extraction_errors.csv
+
+#python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+
+#jupyter notebook checkpoints
+.ipynb_checkpoints
