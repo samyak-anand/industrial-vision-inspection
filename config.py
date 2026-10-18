@@ -47,11 +47,7 @@ def validate_config():
     print(f"External dataset: {DATASET_DIR}")
     print(f"Output directory: {DATA_DIR}")
 
-print("Project root:", PROJECT_DIR)
-print("Dataset directory:", DATASET_DIR)
-print("Dataset exists:", DATASET_DIR.exists())
-print("Output directory:", DATA_DIR)
-print("Output directory exists:", DATA_DIR.exists())
+
 
 if __name__ == "__main__":
     validate_config()
