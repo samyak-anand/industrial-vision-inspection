@@ -6,7 +6,7 @@ data/interim/
 data/image_metadata.csv
 data/object_annotations.csv
 data/image_extraction_errors.csv
-data/annotations_extraction_errors.csv
+data/annotation_extraction_errors.csv
 
 #python cache
 __pycache__/
