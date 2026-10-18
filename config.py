@@ -4,13 +4,13 @@ from pathlib import Path
 
 # Define the base directory for the project 
 
-project_dir = Path(__file__).resolve().parent
+PROJECT_DIR = Path(__file__).resolve().parent
 
 # --------------------------------------------------
 # External dataset (NOT inside GitHub repository)
 # --------------------------------------------------
 DATASET_DIR = (
-    project_dir.parent
+    PROJECT_DIR.parent
     / "dataset-ind-vision-insp"
     / "screw_candidate_detection"
     / "candidate detection"
@@ -18,7 +18,7 @@ DATASET_DIR = (
 # --------------------------------------------------
 # Generated outputs inside the repository
 # --------------------------------------------------
-DATA_DIR = project_dir / "data"
+DATA_DIR = PROJECT_DIR / "data"
 
 IMAGE_METADATA_FILE = DATA_DIR / "image_metadata.csv"
 OBJECT_ANNOTATIONS_FILE = DATA_DIR / "object_annotations.csv"
@@ -43,12 +43,15 @@ def validate_config():
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    print(f"Project: {project_dir}")
+    print(f"Project: {PROJECT_DIR}")
     print(f"External dataset: {DATASET_DIR}")
     print(f"Output directory: {DATA_DIR}")
 
-print("Project root:", project_dir)
+print("Project root:", PROJECT_DIR)
 print("Dataset directory:", DATASET_DIR)
 print("Dataset exists:", DATASET_DIR.exists())
 print("Output directory:", DATA_DIR)
 print("Output directory exists:", DATA_DIR.exists())
+
+if __name__ == "__main__":
+    validate_config()
