@@ -1,7 +1,4 @@
-import pypandoc
-from pathlib import Path
 
-readme = r'''# VisionInspect AI
 ### Industrial Machine-Vision Inspection for Surface Defects, Colour Conformity & Screw Verification
 
 <p align="center">
