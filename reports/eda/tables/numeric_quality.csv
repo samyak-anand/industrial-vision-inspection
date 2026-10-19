@@ -1,0 +1,14 @@
+column,missing_or_non_numeric,positive_infinity,negative_infinity,unique_nonmissing_values
+x1_px,0,0,0,9418
+y1_px,0,0,0,9237
+x2_px,0,0,0,9399
+y2_px,0,0,0,9236
+bbox_width_px,0,0,0,4172
+bbox_height_px,0,0,0,4370
+bbox_area_px2,0,0,0,9083
+bbox_x_center_norm,0,0,0,9790
+bbox_y_center_norm,0,0,0,9701
+bbox_width_norm,0,0,0,3902
+bbox_height_norm,0,0,0,3882
+bbox_area_norm,0,0,0,7637
+bbox_aspect_ratio,0,0,0,7220

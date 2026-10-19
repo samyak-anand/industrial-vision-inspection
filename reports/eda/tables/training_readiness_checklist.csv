@@ -1,0 +1,8 @@
+check,status,evidence,rule_or_limitation
+Required CSV files,PASS,4/4 files exist,PASS only when all four configured CSV inputs exist.
+Required columns,FAIL,6 missing required column(s),PASS when required image and annotation fields are present.
+Extraction errors,PASS,0 image errors; 0 annotation errors,WARNING if any extraction errors exist; inspect error CSVs before deciding whether records can be recovered.
+Identifier uniqueness,PASS,0 rows belong to duplicate ID groups,PASS when image_id and annotation_id are unique within their respective tables.
+Annotation-to-image references,PASS,0 annotation image ID(s) absent from image metadata,PASS when every annotation image_id matches an image metadata record.
+Train/validation/test split,NOT ASSESSED,No populated split assignment found,"A split must be deliberately created, preferably grouped by source/image identity to avoid leakage."
+Visual annotation verification,NOT ASSESSED,Overlay review must be completed by inspecting saved sample visualizations,"Human review is required to confirm box alignment, label correctness, and missed objects."

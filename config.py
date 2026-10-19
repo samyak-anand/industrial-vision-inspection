@@ -33,7 +33,8 @@ ANNOTATION_EXTRACTION_ERRORS_FILE = (
 
 IMAGE_EXTENSION = ".png"
 ANNOTATION_EXTENSION = ".json"
-
+DATASET_NAME = "screw_candidate"
+DATASET_SUBSET = "train"
 
 def validate_config():
     if not DATASET_DIR.is_dir():
