@@ -1,6 +1,6 @@
 # VisionInspect AI — EDA Summary
 
-- Analysis time (UTC): 2026-10-19T10:27:00.631161+00:00
+- Analysis time (UTC): 2026-10-20T07:22:11.724052+00:00
 - Project root: `C:\Users\samya\PyCharmProject\industrial-vision-inspection`
 - Dataset directory (configured): `C:\Users\samya\PyCharmProject\dataset-ind-vision-insp\screw_candidate_detection\candidate detection`
 
