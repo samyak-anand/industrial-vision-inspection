@@ -3,9 +3,12 @@
 datasets/
 data/raw/
 data/interim/
+# Ignore all generated processed datasets
+/data/processed/
 
-# Processed dataset and YOLO-formatted data
+# Processed datasets and YOLO-formatted data
 data/processed/yolo_screw_hole/
+data/processed/yolo_screw_hole_grouped/
 
 # Generated validation outputs
 data/validation/
@@ -15,6 +18,10 @@ data/image_metadata.csv
 data/object_annotations.csv
 data/image_extraction_errors.csv
 data/annotation_extraction_errors.csv
+
+# Generated analysis reports
+reports/eda/
+reports/similarity/
 
 # Python cache and virtual environments
 __pycache__/
