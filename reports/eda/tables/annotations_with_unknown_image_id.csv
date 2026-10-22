@@ -1,1 +1,0 @@
-image_id,annotation_id,label,shape_type,points_json,annotation_flags,x1_px,y1_px,x2_px,y2_px,bbox_width_px,bbox_height_px,bbox_area_px2,bbox_x_center_px,bbox_y_center_px,bbox_x_center_norm,bbox_y_center_norm,bbox_width_norm,bbox_height_norm,bbox_area_norm,bbox_aspect_ratio,out_of_bounds,review_status,created_at

@@ -1,8 +1,0 @@
-check,records_flagged
-negative_width_from_coords,0
-negative_height_from_coords,0
-zero_width_from_coords,0
-zero_height_from_coords,0
-stored_width_mismatch,0
-stored_height_mismatch,0
-stored_area_mismatch,0

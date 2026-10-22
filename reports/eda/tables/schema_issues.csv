@@ -1,7 +1,0 @@
-dataset,issue,column,count
-images,missing_required_column,image_filename,1
-images,missing_required_column,total_pixels,1
-images,missing_required_column,image_checksum_sha256,1
-images,missing_required_column,total_annotations,1
-annotations,missing_required_column,shape_index,1
-annotations,missing_required_column,is_out_of_bounds,1

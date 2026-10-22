@@ -1,5 +1,0 @@
-dataset,path,exists,size_mb
-images,C:\Users\samya\PyCharmProject\industrial-vision-inspection\data\image_metadata.csv,True,0.309
-annotations,C:\Users\samya\PyCharmProject\industrial-vision-inspection\data\object_annotations.csv,True,4.705
-image_errors,C:\Users\samya\PyCharmProject\industrial-vision-inspection\data\image_extraction_errors.csv,True,0.0
-annotation_errors,C:\Users\samya\PyCharmProject\industrial-vision-inspection\data\annotation_extraction_errors.csv,True,0.0
