@@ -1,0 +1,53 @@
+{
+  "project": "VisionInspect AI",
+  "timestamp_utc": "2026-10-22T11:30:25.191906+00:00",
+  "status": "FAILED",
+  "dataset": {
+    "yaml": "C:\\Users\\samya\\PyCharmProject\\industrial-vision-inspection\\scripts\\data\\processed\\yolo_screw_hole\\data.yaml",
+    "splits": {},
+    "total_images": 0,
+    "total_annotations": 0,
+    "exact_cross_split_duplicate_groups": [],
+    "repeated_stems_across_splits": {}
+  },
+  "model": {
+    "path": "C:\\Users\\samya\\PyCharmProject\\industrial-vision-inspection\\scripts\\weights\\yolo11n.pt",
+    "exists": false,
+    "sha256": null,
+    "task": null,
+    "pretrained_classes": null,
+    "loaded": false
+  },
+  "gpu": {
+    "nvidia_smi": "NVIDIA GeForce MX150, 582.78, 4096, 3349",
+    "pytorch_version": "2.3.1+cu118",
+    "pytorch_cuda": "11.8",
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce MX150",
+    "compute_capability": [
+      6,
+      1
+    ],
+    "vram_gib": 4.0,
+    "compiled_architectures": [
+      "sm_37",
+      "sm_50",
+      "sm_60",
+      "sm_61",
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "compute_37"
+    ],
+    "compute_test": "PASSED",
+    "usable_for_pytorch": true,
+    "errors": []
+  },
+  "errors": [
+    "Missing YAML: C:\\Users\\samya\\PyCharmProject\\industrial-vision-inspection\\scripts\\data\\processed\\yolo_screw_hole\\data.yaml",
+    "Missing model weights: C:\\Users\\samya\\PyCharmProject\\industrial-vision-inspection\\scripts\\weights\\yolo11n.pt"
+  ],
+  "warnings": []
+}
