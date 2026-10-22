@@ -1,19 +1,75 @@
+#gitignore
+# Original datasets
 datasets/
 data/raw/
 data/interim/
 
-#Generated extraction outputs
+# Processed dataset and YOLO-formatted data
+data/processed/yolo_screw_hole/
+
+# Generated validation outputs
+data/validation/
+
+# Generated extraction outputs
 data/image_metadata.csv
 data/object_annotations.csv
 data/image_extraction_errors.csv
 data/annotation_extraction_errors.csv
 
-#python cache
+# Python cache and virtual environments
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+env/
 
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
-#jupyter notebook checkpoints
-.ipynb_checkpoints
+# Experiment summaries and inference outputs
+experiment_summary.json
+predictions/
+inference_results/
+evaluation_results/
+training_logs/
+
+# Generated evaluation outputs
+results.csv
+confusion_matrix.png
+confusion_matrix_normalized.png
+F1_curve.png
+P_curve.png
+PR_curve.png
+R_curve.png
+BoxPR_curve.png
+BoxF1_curve.png
+BoxP_curve.png
+BoxR_curve.png
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+
+# Ultralytics YOLO training, validation and test runs
+runs/
+
+# Python test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
